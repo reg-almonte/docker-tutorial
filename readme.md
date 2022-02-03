@@ -32,4 +32,7 @@ docker network create mongo-network
  mongo-express
 
 
- These docker commands are translated to compose-docker.yaml
+ ## Commands were translated to compose-docker.yaml
+ docker-compose -f docker-compose.yaml up
+
+Note: The network will be taken care of docker-compose
